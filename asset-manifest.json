@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Fun-with-GPT-3/static/css/main.073c9b0a.css",
-    "main.js": "/Fun-with-GPT-3/static/js/main.f3148a26.js",
+    "main.js": "/Fun-with-GPT-3/static/js/main.47f8a467.js",
     "static/js/787.4f403b47.chunk.js": "/Fun-with-GPT-3/static/js/787.4f403b47.chunk.js",
     "index.html": "/Fun-with-GPT-3/index.html",
     "main.073c9b0a.css.map": "/Fun-with-GPT-3/static/css/main.073c9b0a.css.map",
-    "main.f3148a26.js.map": "/Fun-with-GPT-3/static/js/main.f3148a26.js.map",
+    "main.47f8a467.js.map": "/Fun-with-GPT-3/static/js/main.47f8a467.js.map",
     "787.4f403b47.chunk.js.map": "/Fun-with-GPT-3/static/js/787.4f403b47.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.f3148a26.js"
+    "static/js/main.47f8a467.js"
   ]
 }
