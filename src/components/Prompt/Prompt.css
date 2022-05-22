@@ -1,0 +1,39 @@
+.mainContainer {
+  background-color: aliceblue;
+  margin: auto;
+width: 80%;
+border: 5px solid #171715;
+padding: 10px;
+
+}
+
+.prompt{
+padding: 10px;
+}
+
+
+.textarea{
+    width: 50%;
+    border: 2px solid black;
+}
+
+.button{
+    margin: 20px;
+    padding: 10px;
+    height: 30px;
+    width: 15%;
+    background-color: rgb(0, 102, 255);
+}
+
+.d-flex{
+    border: 1px solid black;
+
+}
+
+.fw-bold{
+    border: 1px solid black;
+}
+
+.ms-2{
+    border: 1px solid black;
+}

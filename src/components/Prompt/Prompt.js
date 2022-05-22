@@ -1,5 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Form, Button, Card, ListGroup } from "react-bootstrap";
+import  './Prompt.css';
+
+
+
+
 const { Configuration, OpenAIApi } = require("openai");
 
 // const apiKey = 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
@@ -18,9 +23,9 @@ const Prompt = () => {
     const formDataObj = Object.fromEntries(formData.entries());
 
     const data = await openAI.createCompletion("text-curie-001", {
-      prompt: "",
+      prompt: "\n",
       temperature: 0.7,
-      max_tokens: 200,
+      max_tokens: 150,
       top_p: 1,
       frequency_penalty: 0.5,
       presence_penalty: 0,
@@ -45,18 +50,19 @@ const Prompt = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Fun with AI</h1>
+    <div className="mainContainer">
+      <h1>Fun With GPT-3</h1>
       <Form onSubmit={onFormSubmit}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Enter Prompt</Form.Label>
-          <Form.Control
+          <Form.Label className="prompt">Enter Prompt</Form.Label>
+          <Form.Control 
+            className="textarea"
             type="text"
             name="promptInput"
             placeholder="Please be as descriptive as possible to get the best results"
           />
         </Form.Group>
-        <Button variant="primary" size="lg" type="submit">
+        <Button className="button" variant="primary" size="lg" type="submit">
           Submit
         </Button>
       </Form>
