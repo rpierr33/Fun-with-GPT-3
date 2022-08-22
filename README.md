@@ -29,8 +29,9 @@ https://rpierr33.github.io/Fun-with-GPT-3/
 ## Usage
 1. Clone down repository
 2.  Run npm I to install dependencies
-3.  Run npm start to start app
-4. Open browser
+3.  go to https://beta.openai.com/ and create an account to generate API key. Add .env file to root folder of the app, add api key to .env file
+4.  Run npm start to start app
+5. Go to browser
 
 
 ## Contributors
